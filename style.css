@@ -1,0 +1,255 @@
+
+
+@import url('http://fonts.cdnfonts.com/css/netflix-sans');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+a::before{
+    text-decoration: none;
+}
+.back{
+background-image: url(assets/upper-backgroud-img.jpg); 
+}
+body{
+    font-family: 'Netflix Sans', sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    margin: 0%;
+    padding: 0;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0rem 4rem 0rem 2rem;
+    background-color: transparent;
+   
+}
+
+.logo svg{
+    width: 160px;
+    height: auto;
+    background-color: red;
+    fill: red;
+    background-color: transparent;
+}
+.menu select{
+    padding-left: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: .875rem;
+    border: 1px solid #aaa;
+    width: 8rem;
+    height: 2.3rem;
+    color: white;
+    background-color: black;
+}
+.menu button{
+    width: 5rem;
+    height: 2.3rem;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 2rem;
+    border: none;
+    font-weight: 600;
+}
+.navbarcontainer{
+    background-color: transparent;
+    
+}
+.fade{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0))
+}
+main h1{
+    font-weight: 700;
+    
+}
+
+.introContainer{
+    height: 65vh;
+    border-bottom: 8px solid rgb(37, 37, 37);
+    text-align: center;
+}
+
+.intro{
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    max-width: 950px;
+    
+}
+.intro h1{
+    margin: auto;
+    width: auto;
+    font-size: 3.925em;
+    padding-top: 70px;
+    line-height: 4.125rem;
+    margin-bottom: 20px;
+    
+}
+.introh1{
+    max-width: 640px;
+    font-weight: 500;
+}
+.intro p{
+    margin: auto;
+    margin-bottom: 20px;
+      
+}
+
+div.cards{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+}
+
+
+h1{
+    color: white;
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 50px;  
+         
+}
+
+p{
+    color: white;
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 26px;
+    
+  
+}
+.introP{
+    font-weight: 400;
+    font-size: 1.115rem;
+    margin: auto;
+    
+    
+}
+.emailBar{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    display:inline-block;
+       
+}
+.emailBar input{
+    
+    width: 29rem;
+    height: 3.8rem;
+    margin: auto;
+    padding: 0;
+    padding-left: 10px;
+    border: solid 1px #8c8c8c;
+    vertical-align: middle;
+}
+.emailBar button{
+    vertical-align: middle;
+    line-height: 21px;
+    font-size: 26px;
+    margin: auto;
+    width: 12rem;
+    height: 3.8rem;
+    color: white;
+    background-color: red;
+    padding: 0;
+    font-weight: 500; 
+    border: none;
+ 
+}
+.tvcontainer{
+    
+    width: 100%;
+    padding: 70px 45px;
+    text-align: center;
+    margin: 0;
+    border-bottom: 8px solid rgb(37, 37, 37);
+    
+}
+.tvtext{
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    margin-right: 20px;
+       
+}
+.tvtext p{
+    margin-top: 10px;
+}
+.tv{
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+  
+}
+.tv img{
+    width: 80%;
+    height: 100%;
+}
+footer{
+       
+    background-color: black;
+    padding: 0px 0px 20px;
+    margin: auto;
+    
+}
+footer h1{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+    padding-top: 50px;
+    margin: auto;
+}
+
+footer p{
+    font-size: 13px;
+    font-family: 'Netflix Sans', sans-serif;
+    color: #757575;
+}
+.footercontainer{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.footercard{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+        
+}
+.coluna{
+    padding: 20px;
+    line-height: 2rem;
+    text-align: left;
+}
+.selectfinal{
+    text-align: center;
+}
+#selectfinal{
+
+    padding-left: 15px;
+    text-align: center;
+    justify-content: center;
+    font-size: .875rem;
+    border: 1px solid #aaa;
+    width: 8rem;
+    height: 2.3rem;
+    color: white;
+    background-color: black;
+}
